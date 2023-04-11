@@ -32,7 +32,7 @@ RUN apt-get update && \
     apt-get install -y wget p7zip  && \
     wget https://dukeworld.com/eduke32/synthesis/latest/eduke32_win32_20230405-10212-6537106e6.7z && \
     7zr x eduke32_win32_*.7z && \
-    wget https://github.com/zear/eduke32/raw/master/polymer/eduke32/duke3d.grp && \
+    wget https://github.com/ninjada/eduke32/raw/master/duke3d.grp && \
     rm -f eduke32_win32_*.7z && \
     rm -rf /var/lib/apt/lists
 
